@@ -596,6 +596,10 @@
    }
 }
 @media (max-width: 400px) {
+   .info-slider__left-bottom {
+
+      bottom: -50px;
+   }
    .main-life__left h3 {
       font-size: 38px;
    }
