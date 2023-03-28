@@ -15,6 +15,7 @@ new Swiper('.main-slider', {
    loop: true,
    slidesPerView: 1,
    spaceBetween: 80,
+   autoHeight: true,
 });
 
 
