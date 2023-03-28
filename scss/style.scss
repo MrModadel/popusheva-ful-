@@ -763,10 +763,11 @@ h6 {
    &__right {
       position: absolute;
       right: 0;
+      width: 374px;
 
       &-bottom {
          position: absolute;
-         right: 0;
+         right: -52px;
          bottom: 4px;
 
          &-img-wrapper {

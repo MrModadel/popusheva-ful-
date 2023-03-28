@@ -43,13 +43,13 @@ new Swiper('.sm-slide', {
    spaceBetween: 60,
 });
 /* ---------------------light-slider------------------------- */
-// new Swiper('.light-slide', {
-//    navigation: {
-//       nextEl: '.light-slider__next',
-//       prevEl: '.light-slider__prev',
-//    },
-//    loop:true,
-// });
+new Swiper('.light-slide', {
+   navigation: {
+      nextEl: '.light-slider__next',
+      prevEl: '.light-slider__prev',
+   },
+   loop:true,
+});
 new Swiper('.advan__item-box',{
    slidesPerView: 1.2,
    spaceBetween: 16,
