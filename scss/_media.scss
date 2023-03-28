@@ -725,6 +725,9 @@
    }
 }
 @media (max-width: 321px) {
+   .btn-primary {
+      padding: 25px 35px;
+   }
    .big-slider__left-images {
       gap: 5px;
    }
@@ -735,4 +738,32 @@
    .big-slider__right-arrow {
       margin-left: 7px;
    }
+   .main-start__right h2 {
+      font-size: 54px;
+   }
+   .main-rez__left h2 {
+      font-size: 54px;
+   }
+   .main-start__right p {
+      font-size: 24px;
+   }
+   .main-rez__left p {
+      margin-top: 24px;
+   }
+   .big-slider__left-images {
+      gap: 5px;
+  }
+  .big-slider__left-images img {
+   width: 60px;
+   height: 60px;
+}
+.big-slider__right-arrow {
+   margin-left: 10px;
+}
+.advan__title {
+   font-size: 39px;
+}
+.light-slider__left h2 {
+   font-size: 39px;
+}
 }
