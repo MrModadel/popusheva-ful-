@@ -82,6 +82,7 @@ clModalVideo.forEach(item => {
       modalVideo.classList.remove('show-one')
    }
 })
+
 function pageScroll() {
    window.scrollTo({
       top: 795,
