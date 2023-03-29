@@ -102,6 +102,16 @@ h6 {
       @include textFont("SF Pro Display", 400, 24px, 24px, #fefefe, center);
    }
 }
+.big-slider__right-arrow {
+   margin-left: 0px !important;
+}
+.big-slider__right-bottom {
+   justify-content: space-between !important;
+   padding: 0 16px !important;
+}
+.big-slider__right-numbers {
+   margin-left: 0px !important;
+}
 .burger-mn {
    cursor: pointer;
    display: flex;
@@ -142,12 +152,13 @@ h6 {
    }
 
    &__line {
-      position: absolute;
-      width: 1125px;
+      width: 100%;
       opacity: 0.6;
-      top: 148px;
+      margin-top: -4px;
       border: 1px solid #fefefe;
       z-index: -1;
+      position: relative;
+      height: 0;
    }
 
    &__title {
@@ -179,7 +190,7 @@ h6 {
    padding-top: 15px;
    &__ul {
       display: flex;
-      gap: 40px;
+      justify-content: space-between;
    }
    &__li {
       white-space: nowrap;
@@ -409,6 +420,8 @@ h6 {
    }
 }
 .view-before {
+      width: 100% !important;
+
    img {
       width: 100% !important;
    }

@@ -29,7 +29,7 @@ new Swiper('.home-slide', {
    slidesPerView: 1,
    spaceBetween: 160,
    autoHeight: true,
-   simulateTouch:false,
+   simulateTouch: false,
 });
 /* --------------------------------smSlider------------------------------- */
 
@@ -48,9 +48,9 @@ new Swiper('.light-slide', {
       nextEl: '.light-slider__next',
       prevEl: '.light-slider__prev',
    },
-   loop:true,
+   loop: true,
 });
-new Swiper('.advan__item-box',{
+new Swiper('.advan__item-box', {
    slidesPerView: 1.2,
    spaceBetween: 16,
 })
@@ -84,8 +84,7 @@ clModalVideo.forEach(item => {
 })
 function pageScroll() {
    window.scrollTo({
-      top:795,
-      behavior:"smooth",
+      top: 795,
+      behavior: "smooth",
    });
 }
-
