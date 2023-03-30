@@ -486,6 +486,9 @@
    .info-slider__left h4 {
       display: none;
    }
+   .more_off {
+      display: block;
+   }
    .info-slider__left-arrows {
       margin-left: 0px;
    }
@@ -644,6 +647,9 @@
    .main-manifest__wrapper h3 {
       font-size: 17px;
       display: none;
+   }
+   .more_off-one {
+      display: block;
    }
    .main-manifest__wrapper {
       gap: 30px;

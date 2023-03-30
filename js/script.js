@@ -70,7 +70,6 @@ arAni(arrow)
 let opModalVideo = document.querySelectorAll('[data-open]');
 let clModalVideo = document.querySelectorAll('[data-close]');
 let modalVideo = document.querySelector('.modal-video');
-
 opModalVideo.forEach(item => {
    item.onclick = () => {
       console.log(modalVideo);
@@ -82,10 +81,56 @@ clModalVideo.forEach(item => {
       modalVideo.classList.remove('show-one')
    }
 })
-
 function pageScroll() {
    window.scrollTo({
       top: 795,
       behavior: "smooth",
    });
 }
+let moreOne = document.querySelectorAll('.more_off');
+let moreText = document.querySelectorAll('.info-slider__left h3');
+let moreTextOne = document.querySelectorAll('.info-slider__left h4');
+let manif = document.querySelector('.main-manifest');
+let prevMore = document.querySelectorAll('.info-slider__prev , .info-slider__next');
+moreOne.forEach(item => {
+   item.onclick = () => {
+      moreText.forEach(k => {
+         k.style.display = 'block';
+      })
+      moreTextOne.forEach(k => {
+         k.style.display = 'block';
+      })
+      moreOne.forEach(p => {
+         p.style.display = 'none';
+      })
+      manif.style.marginTop = '350px'
+   }
+})
+prevMore.forEach(item => {
+   item.onclick = () => {
+      moreText.forEach(k => {
+         k.style.display = 'none';
+      })
+      moreTextOne.forEach(k => {
+         k.style.display = 'none';
+      })
+      moreOne.forEach(p => {
+         p.style.display = 'block';
+      })
+      manif.style.marginTop = '100px'
+   }
+})
+let moreOff = document.querySelector('.more_off-one');
+moreOff.onclick = () => {
+   document.querySelectorAll('.main-manifest__wrapper h4 , .main-manifest__wrapper h3').forEach(item=>{
+      item.style.display = 'block';
+      moreOff.style.display = "none";
+   })
+
+
+}
+// .main-manifest__wrapper h4,
+// .main-manifest__wrapper h3 {
+//    font-size: 17px;
+//    display: none;
+// }
